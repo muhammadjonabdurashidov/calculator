@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: dodgerblue;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.calculatorinput {
+  width: 300px;
+  height: 30px;
+  outline: palegreen;
+  margin-right: 20px;
+  background-color: yellow;
+  color: black;
+}
+
+.select1 {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: yellow;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.select1:hover {
+  color: yellow;
+  background-color: black;
+  transition: 1.2s;
+  
+}
+
+
+.calculatorbtn {
+  cursor: pointer;
+  width: 100px;
+  background-color: yellow;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.calculatorbtn:hover {
+  color: yellow;
+  background-color: black;
+  transition: 1.2s;
+}
