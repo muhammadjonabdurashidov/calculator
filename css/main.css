@@ -8,19 +8,39 @@ body {
   background-color: dodgerblue;
 }
 
+.h11 {
+  position: absolute;
+  top: 150px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+
 .box {
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .calculatorinput {
   width: 300px;
   height: 30px;
-  outline: palegreen;
   margin-right: 20px;
   background-color: yellow;
   color: black;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.calculatorinput:hover{
+  background-color: black;
+  color: yellow;
+  transition: 1.2s;
 }
 
 .select1 {
